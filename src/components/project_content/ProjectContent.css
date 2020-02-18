@@ -1,0 +1,79 @@
+.projects {
+    display: flex;
+    position: relative;
+    top: -80vh;
+    left: 40px;
+    margin: 0 auto;
+}
+
+.projects h4 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.32px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.projects p {
+    color: #9ea3b4;
+    letter-spacing: 0.28px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.mainProjects__list {
+    width: 85%;
+    height: 100px;
+    margin: 18px auto;
+    border-radius: 5px;
+    background-color: #3a3e52;
+    border-left: 6px solid #e2e3e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.mainProjects__progress, .mainProjects__assigned {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainProjects__item-progress {
+    width: 300px;
+}
+
+.mainProjects__progress > h4 {
+    margin-right: 16px;
+    width: 20%;
+}
+
+.mainProjects__progress > div {
+    width: 80%;
+    height: 9px;
+    border-radius: 4px;
+    background: #9ea3b4;
+}
+
+.mainProjects__progress > div > span {
+    display: block;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgb(43,194,83);
+}
+
+.mainProjects__assigned i {
+    font-size: 42px;
+    margin-right: 25px;
+    color: #9ea3b4;
+}
+
+.mainProjects__ellipsis {
+    color: #9ea3b4;
+    cursor: pointer;
+    text-align: right;
+    margin-right: 20px;
+}

@@ -1,0 +1,38 @@
+.project {
+    width: 80%;
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    color:  #9ea3b4;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+}
+
+.project-title__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.project-title__project {
+    margin-left: 30px;
+    margin-right: 120px;
+}
+
+.project-title__deadline {
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.project-title__progress {
+    margin-left: 90px;
+    margin-right: 300px;
+}
+
+.project-title__status {
+    margin-right: 160px;
+}
